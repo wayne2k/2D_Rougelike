@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 444560}
   - 212: {fileID: 21244560}
   - 61: {fileID: 6144560}
+  - 114: {fileID: 11448398}
   m_Layer: 8
   m_Name: Wall8
   m_TagString: Untagged
@@ -40,6 +41,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!114 &11448398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61af75186d53334082a2f8279b1038e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgSprite: {fileID: 21300108, guid: fbe1e7b94bb1a4a099d5bcb15a00141c, type: 3}
+  hp: 4
 --- !u!212 &21244560
 SpriteRenderer:
   m_ObjectHideFlags: 1
